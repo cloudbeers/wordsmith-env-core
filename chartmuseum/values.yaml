@@ -1,0 +1,11 @@
+env:
+  open:
+    ALLOW_OVERWRITE: true
+    DISABLE_API: false
+ingress:
+  enabled: true
+  hosts:
+    charts.wordsmith.beescloud.com:
+      - /
+      - /charts
+      - /index.yaml
